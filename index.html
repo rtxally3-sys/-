@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="ホシフダ物語">
+<meta name="theme-color" content="#1b2440">
+<meta name="format-detection" content="telephone=no">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<title>ホシフダ物語</title>
+<!-- ファイルを直したら ?v= の数字を1つ増やす（古い版がiPhoneに残るのを防ぐ） -->
+<link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+<div id="app"></div>
+<div id="rotate">iPhoneを たて向きにして あそんでね</div>
+
+<!-- ▼ 読みこむ順番が大事。新しいフィールドは「fields」のところに1行ずつ足す ▼ -->
+<script src="js/core.js?v=1"></script>
+<script src="js/battle.js?v=1"></script>
+<script src="js/ai.js?v=1"></script>
+<script src="js/artkit.js?v=1"></script>
+<!-- fields -->
+<script src="js/fields/field1.js?v=1"></script>
+<script src="js/fields/field1-art.js?v=1"></script>
+<!-- /fields -->
+<script src="js/save.js?v=1"></script>
+<script src="js/ui.js?v=1"></script>
+<script src="js/chars.js?v=1"></script>
+<script src="js/map.js?v=1"></script>
+<script src="js/battle-ui.js?v=1"></script>
+<script src="js/screens.js?v=1"></script>
+<script src="js/main.js?v=1"></script>
+</body>
+</html>
